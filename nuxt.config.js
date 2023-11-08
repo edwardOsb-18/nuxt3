@@ -14,7 +14,7 @@ routeRules:{
 
 "/":{   prerender:true},
 "/contacto":{   prerender:true},
-"/osb":{   ssr:false},
+"/osb":{   ssr:true},
 "/servicios":{   prerender:true},
 }
   
