@@ -2,7 +2,7 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-
+ssr:false
 
 // nitro:{
 //   prerender:{
@@ -10,13 +10,13 @@ export default defineNuxtConfig({
 //   }
 
 // }
-routeRules:{
+// routeRules:{
 
-"/":{   prerender:true},
-"/contacto":{   prerender:true},
-"/osb":{   prerender:true},
-"/servicios":{   prerender:true},
-}
+// "/":{   prerender:true},
+// "/contacto":{   prerender:true},
+// "/osb":{   prerender:true},
+// "/servicios":{   prerender:true},
+// }
   
   
 })
